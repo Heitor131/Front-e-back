@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/login.css">
+
+    <script src="/js/login.js"></script>
+</head>
+<body>
+    <div id="conteiner-login">
+        <h1 id="h1-login">
+            O cesupa esta me matando 
+        </h1>
+        <form id="login">
+            <label for="CPF">CPF</label>
+            <input type="text" name="nomes" id="nomes" placeholder="digita o seu nome" required>
+            <label for="senha">senha</label>
+            <input type="password" name="senha" id="senha" placeholder="digita a sua senha" required>
+            <a href="#" target="_blank" id="esqueceu">Esqueceu a sua senha?</a>
+        </form>
+
+        <button type="submit" onclick="logar()" value="Entrar" id="btn-login">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Entrar
+        </button>
+
+        <div id="registro">
+            <p>Ainda não é menbro?</p>
+            <a href="#" target="_blank">Torne-se menbro</a>
+
+        </div>
+
+    </div>
+</body>
+</html>

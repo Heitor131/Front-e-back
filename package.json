@@ -1,16 +1,28 @@
 {
-  "name": "backend",
+  "name": "login",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "backend.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "dependencis":{
+    "wfs": "^0.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1"
+  },
+  "description": "Projeto realizado pelo escritorio de engenharia.",
   "dependencies": {
-    "express": "^4.21.0"
-  }
+    "express": "^4.21.1",
+    "express-session": "^1.18.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Heitor131/Front-e-back.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Heitor131/Front-e-back/issues"
+  },
+  "homepage": "https://github.com/Heitor131/Front-e-back#readme"
 }
